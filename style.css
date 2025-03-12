@@ -30,8 +30,23 @@ nav{
 }
 
 .hero{
+   position: relative;
+   top: 6rem;
+    display: flex;
+    flex-direction: row;
    
+    justify-content: center;
+    align-items: center;
+    gap: 3rem
+  
+}
+
+.title{
     display: flex;
     flex-direction: column;
-  
+    font-family: 'Poppins' ,sans-serif;
+}
+.profile{
+    width: 300px;
+    border-radius: 100%;
 }

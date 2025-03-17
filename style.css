@@ -1,52 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;700&display=swap");
 
-main{
-    width: 80vw;
-    height: 100vh;
-    display: flex;
-   
-    width: auto;
-   flex-direction: column;
-    border: solid 1px red;
-   
 
-}
 
-nav{
-   
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-     font-family: "Poppins", sans-serif;
-     border: solid 1px blue;
-     
-
-  
-    
-    
-}
-
-.hero{
-   position: relative;
-   top: 6rem;
-    display: flex;
-    flex-direction: row;
-   
-    justify-content: center;
-    align-items: center;
-    gap: 3rem
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   
 }
+main {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
 
-.title{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins' ,sans-serif;
+  width: auto;
+  flex-direction: column;
+  border: solid 1px red;
 }
-.profile{
-    width: 300px;
-    border-radius: 100%;
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  border: solid 1px blue;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.profile {
+  width: 300px;
+  border-radius: 100%;
+}
+
+.tile,
+h1 {
+  font-size: 8rem;
+}
+
+.title,
+h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+flex-wrap: wrap;
+}
+
+.web{
+  width: 400px;
+}
+
+.h3{
+  font-family: "Poppins", sans-serif;
 }
